@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Th3XS2nT+g7rxuPQ8iAq1dfl3MT+bt+ne9y7dGuJb5E=",
+  "Source": "game_catalog_service",
+  "BasePath": "_content/game_catalog_service",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "game_catalog_service", "game_catalog_service.csproj", "{1069A153-9A49-4F32-B10A-ED51FEF729CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1069A153-9A49-4F32-B10A-ED51FEF729CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1069A153-9A49-4F32-B10A-ED51FEF729CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1069A153-9A49-4F32-B10A-ED51FEF729CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1069A153-9A49-4F32-B10A-ED51FEF729CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

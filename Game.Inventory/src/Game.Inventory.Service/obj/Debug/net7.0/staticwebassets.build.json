@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "XadEkz2YUElW3O03Sww1sDJl4zCoHwOSC+z4/lusDGA=",
+  "Source": "Game.Inventory.Service",
+  "BasePath": "_content/Game.Inventory.Service",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

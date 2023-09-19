@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Game.Inventory.Service.props" />
+</Project>

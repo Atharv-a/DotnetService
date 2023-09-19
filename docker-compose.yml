@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  catalog_service:
+    image: atharva1singh/catalog_service
+    container_name: catalog_service
+    ports:
+      - 5197:80
+    restart: unless-stopped
+    environment:
+      - RabbitMqHost=${RabbitMqHost}
+      - RabbitMqVHost=${RabbitMqVHost}
+      - RabbitMqPass=${RabbitMqPass}
+      - Mongo_connection_string=${Mongo_connection_string}
+
+
+  inventory_service:
+    image: atharva1singh/inventory_service
+    container_name: inventory_service
+    ports:
+      - 5165:80
+    restart: unless-stopped
+    environment:
+      - RabbitMqHost=${RabbitMqHost}
+      - RabbitMqVHost=${RabbitMqVHost}
+      - RabbitMqPass=${RabbitMqPass}
+      - Mongo_connection_string = ${Mongo_connection_string}

@@ -1,0 +1,157 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/atharva/Catalog_service/Game.Catalog/src/game_catalog_service/game_catalog_service.csproj": {}
+  },
+  "projects": {
+    "/home/atharva/Catalog_service/Game.Catalog/src/Game.Catalog.Contracts/Game.Catalog.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/atharva/Catalog_service/Game.Catalog/src/Game.Catalog.Contracts/Game.Catalog.Contracts.csproj",
+        "projectName": "Game.Catalog.Contracts",
+        "projectPath": "/home/atharva/Catalog_service/Game.Catalog/src/Game.Catalog.Contracts/Game.Catalog.Contracts.csproj",
+        "packagesPath": "/home/atharva/.nuget/packages/",
+        "outputPath": "/home/atharva/Catalog_service/Game.Catalog/src/Game.Catalog.Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/atharva/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/home/atharva/packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.110/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/atharva/Catalog_service/Game.Catalog/src/game_catalog_service/game_catalog_service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/atharva/Catalog_service/Game.Catalog/src/game_catalog_service/game_catalog_service.csproj",
+        "projectName": "game_catalog_service",
+        "projectPath": "/home/atharva/Catalog_service/Game.Catalog/src/game_catalog_service/game_catalog_service.csproj",
+        "packagesPath": "/home/atharva/.nuget/packages/",
+        "outputPath": "/home/atharva/Catalog_service/Game.Catalog/src/game_catalog_service/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/atharva/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/home/atharva/packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/atharva/Catalog_service/Game.Catalog/src/Game.Catalog.Contracts/Game.Catalog.Contracts.csproj": {
+                "projectPath": "/home/atharva/Catalog_service/Game.Catalog/src/Game.Catalog.Contracts/Game.Catalog.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MassTransit.AspNetCore": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.21.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.110/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
